@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container centralizado */
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+}
+
+/* Contador */
+#value {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #222; /* Cor padrão */
+}
+
+/* Container dos botões */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Botões */
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover nos botões */
+.btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Botão de reset com estilo diferente */
+.reset {
+    border-color: #ff9800;
+}
+
+.reset:hover {
+    background-color: #ff9800;
+    color: white;
+}
